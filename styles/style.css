@@ -146,3 +146,33 @@ form button {
   border-radius: 10px;
   outline: none;
 }
+
+/* footer section styles */
+.footer-section {
+  width: 484px;
+  height: 213px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 63px;
+}
+.footer-logo {
+  width: 484px;
+  height: 110px;
+  margin-bottom: 20px;
+}
+.footer-logo img {
+  width: 100%;
+}
+.social-media-icons {
+  margin-bottom: 20px;
+}
+.social-media-icons i {
+  color: #969bab;
+  font-size: 18px;
+  margin-right: 14px;
+}
+.footer-section p {
+  font-size: 18px;
+  font-weight: 400;
+}
