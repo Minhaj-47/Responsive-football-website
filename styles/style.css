@@ -176,3 +176,67 @@ form button {
   font-size: 18px;
   font-weight: 400;
 }
+
+/* media queries */
+
+/* for mobile devices */
+@media only screen and (max-width: 688px) {
+  /* header section updated */
+
+  .header-section {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 23px;
+  }
+  .header-info {
+    padding: 52px 66px 50px 19px;
+  }
+  .header-title {
+    width: 278px;
+    height: 138px;
+    font-size: 36px;
+  }
+
+  .half-width img {
+    width: 329px;
+    height: 260px;
+    padding: 50px 16px 62px 15px;
+  }
+  .btn:hover {
+    transform: scale(0.85);
+    background-color: #8f103e;
+    border-radius: 5px;
+  }
+  /* players section updated */
+  .container {
+    width: 100%;
+  }
+  .players {
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    margin: 24px 15px;
+  }
+  /* winninig team section updated */
+  .winning-team-details {
+    width: 100%;
+  }
+  .winning-team-info {
+    padding: 0;
+    font-size: 12px;
+    box-sizing: border-box;
+  }
+  .winning-team-details:hover .winning-team-info {
+    display: block;
+    overflow: scroll;
+  }
+  /* form section changed */
+  .form-control {
+    width: 100%;
+  }
+  /* footer changes */
+  .footer-logo {
+    width: 276px;
+  }
+}
